@@ -5,7 +5,7 @@
 This project demonstrates a real-time anomaly detection system for a simulated continuous data stream. The data stream simulates real-world metrics such as financial transactions or system performance metrics with seasonal patterns, noise, and anomalies. The main objective is to detect anomalies (e.g., unusually high or low values) in real-time using different anomaly detection models.
 
 Click Here for [Project Live Link](https://datastream-anomalydetection-ntech.streamlit.app/)
-Note: The project is deployed on Streamlit's Community Cloud (Limited to 1GB Resources), for a better performance, kindly follow the instructions [HERE](#installation-and-setup-instructions) and run it locally on your system.
+Note: The project is deployed on Streamlit's Community Cloud (Limited to 1GB Resources), for a smoother experience, kindly follow the instructions [HERE](#installation-and-setup-instructions) and run it locally on your system.
 
 ## Objectives
 
