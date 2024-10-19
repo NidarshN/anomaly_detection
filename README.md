@@ -23,9 +23,10 @@ Note: The project is deployed on Streamlit's Community Cloud (Limited to 1GB Res
   
 ## Algorithms Implemented
 
-- **Z-score Detection**: Anomaly detection based on statistical deviation from the mean.
-- **EWMA (Exponentially Weighted Moving Average)**: A method that weighs recent observations more heavily to detect anomalies.
-- **Isolation Forest**: A tree-based algorithm that isolates outliers in a dataset.
+- **Z-score Detection**: Anomaly detection based on statistical deviation from the mean, which handles simple outliers based on statistical thresholds.
+- **EWMA (Exponentially Weighted Moving Average)**: A method that weighs recent observations more heavily to detect anomalies and is effective for detecting shifts in the mean of streaming data.
+- **Isolation Forest**: A tree-based algorithm that isolates outliers in a dataset. It works well for complex, high-dimensional data anomalies.
+
 
 ## Evaluation Metrics
 
