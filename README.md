@@ -1,4 +1,4 @@
-# Real Time Anomaly Detection
+# Efficient Data Stream Anomaly Detection
 
 ## Project Description
 

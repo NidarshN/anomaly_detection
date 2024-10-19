@@ -7,7 +7,7 @@ from sklearn.metrics import precision_score, recall_score, f1_score
 
 
 st.set_page_config(
-    page_title="Real Time Anomaly Detection",
+    page_title="Efficient Data Stream Anomaly Detection",
     page_icon="📈",
     layout="wide",
     initial_sidebar_state="expanded",
