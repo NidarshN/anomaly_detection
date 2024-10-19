@@ -2,12 +2,12 @@ import streamlit as st
 import time
 import matplotlib.pyplot as plt
 from models import z_score_detection, ewma_detection, isolation_forest_detection
-from utils import APP_INFO, AUTHOR_INFO, MODEL_DESC_DICT, NUM_DATA_POINTS_INFO, STREAM_SPEED_INFO, ANOMALY_RATE_INFO, NOISE_INFO, SEASONAL_INFO, TREND_INFO, simulate_data_stream
+from utils import APP_NAME, APP_INFO, AUTHOR_INFO, MODEL_DESC_DICT, NUM_DATA_POINTS_INFO, STREAM_SPEED_INFO, ANOMALY_RATE_INFO, NOISE_INFO, SEASONAL_INFO, TREND_INFO, simulate_data_stream
 from sklearn.metrics import precision_score, recall_score, f1_score
 
 
 st.set_page_config(
-    page_title="Efficient Data Stream Anomaly Detection",
+    page_title=APP_NAME,
     page_icon="📈",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -46,7 +46,7 @@ with st.sidebar:
 run_stream = True
 
 # Initialize placeholders for real-time plotting and anomaly detection
-st.markdown("# Real Time Anomaly Detection")
+st.markdown(f"# {APP_NAME}")
 st.write(APP_INFO)
 st.markdown(f"### Model: {model_option}", help=MODEL_DESC_DICT[model_option])
 if not start_stream:

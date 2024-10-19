@@ -1,5 +1,6 @@
 import numpy as np
 
+APP_NAME="""Efficient Data Stream Anomaly Detection"""
 APP_INFO="""This project demonstrates a real-time anomaly detection system for a simulated continuous data stream. 
 The data stream simulates real-world metrics such as financial transactions or system performance metrics with 
 seasonal patterns, noise, and anomalies. The main objective is to detect anomalies (e.g., unusually high or low values)
