@@ -69,4 +69,4 @@ This project demonstrates a real-time anomaly detection system for a simulated c
 
 ### License
 
-MIT License
+[MIT License](./LICENSE)
